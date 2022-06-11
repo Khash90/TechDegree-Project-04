@@ -13,6 +13,7 @@
   }
   
   [class^=col] {
+    color: $color-black;
     margin-top: 10px;
     flex-basis: 100%;
     min-height: 25px;
@@ -23,8 +24,6 @@
       cursor: pointer;
     }
   }
-  
- 
   
   .card {
     flex-basis: 100%;

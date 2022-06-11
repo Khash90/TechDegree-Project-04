@@ -2,9 +2,7 @@
 //Font stacks
 
 $font-url--google: 'http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
-
 $font-family--primary  :'Lato', 'Helevtica Neue', Helvetica, Ariel, sans-serif;
-
 $font-family--secondary: 'Helevtica Neue', Helvetica, Ariel, sans-serif;
 
 //Font Weights
@@ -14,11 +12,13 @@ $font-weight--light      : 300;
 $font-weight--medium     : 400;
 $font-weight--bold       : 700;
 $font-weight--ultra-bold : 900;
-// Colors
 
+// Colors
+$body-bg:rgb(9, 9, 53);
 $color-primary : #58e1c1;
 $color-secondary: #777;
 $color-main: #fff;
+$color-black: black;
 
 
 //Links color
@@ -70,47 +70,6 @@ $bg-colors-gr: (
         '12' :    100%,
         );
   
-  
-
-//   .col-3 {
-//     flex-basis: 25.00%;
-//   }
-  
-//   .col-4 {
-//     flex-basis: 33.33%;
-//   }
-  
-//   .col-5 {
-//     flex-basis: 41.67%;
-//   }
-  
-//   .col-6 {
-//     flex-basis: 50.00%;
-//   }
-  
-//   .col-7 {
-//     flex-basis: 58.33%;
-//   }
-  
-//   .col-8 {
-//     flex-basis: 66.67%;
-//   }
-  
-//   .col-9 {
-//     flex-basis: 75.00%
-//   }
-  
-//   .col-10 {
-//     flex-basis: 83.33%;
-//   }
-  
-//   .col-11 {
-//     flex-basis: 91.67%;
-//   }
-  
-//   .col-12 {
-//     flex-basis: 100%;
-//   }
 
 // Media queries Breakpoints
 
