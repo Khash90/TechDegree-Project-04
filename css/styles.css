@@ -536,9 +536,9 @@ template {
 /* ============================================= */
 * {
   font-family: "Lato", "Helevtica Neue", Helvetica, Ariel, sans-serif;
-  color: #777;
+  color: #EDEDED;
   box-sizing: border-box;
-  background: rgb(9, 9, 53);
+  background: #230A33;
 }
 
 p {
@@ -563,7 +563,7 @@ a:hover {
 }
 .headline-secondary {
   font-weight: 300;
-  color: #777;
+  color: #EDEDED;
 }
 
 .link {
