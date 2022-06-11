@@ -1,0 +1,26 @@
+
+// Grid background colors
+@each $themes , $color in $bg-colors-gr {
+
+    .theme.col-#{$themes}{
+        background-color: $color;
+    }
+    .theme.col-#{$themes}:hover {
+        background-color: darken($color, 15%);
+    }
+}
+
+
+
+//Buttons background colors
+
+@each $themes , $color in $bg-color-btns {
+
+    .#{$themes} {
+        background-color: $color;
+    }
+    .#{$themes}:hover {
+        background-color: lighten($color, 10%);
+    }
+}
+

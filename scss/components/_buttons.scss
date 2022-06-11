@@ -10,24 +10,9 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    &:hover {
+      cursor: pointer;
+    }
   }
   
-  .default {
-    background-color: $color-default;
-  }
-  
-  .error {
-    background-color: $color-error;
-  }
-  
-  .info {
-    background-color: $color-info;
-  }
-  
-  .success {
-    background-color: $color-success;
-  }
-  
-  .warning {
-    background-color: $color-warning;
-  }
+// Buttons background colors in _functions partial
