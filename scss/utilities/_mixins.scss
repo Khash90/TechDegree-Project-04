@@ -56,3 +56,21 @@
       }
       @content;
 }
+
+//Media queries
+// the error of "+" is only in vscode , Sass compiles successfully and page works just fine!!!!!!.
+@mixin mq($break) {
+   @if $break == "small" {
+     @media (min-width: $breakpoint-sm) and (max-width: $breakpoint-medium) {
+       @content;
+     }
+   }
+   @else if $break == "medium" {
+     @media (min-width: $breakpoint-medium + 1) {
+       @content;
+     }
+   } 
+   @else{
+    @error "Not a valid value for `#{$break}`."
+   }
+}

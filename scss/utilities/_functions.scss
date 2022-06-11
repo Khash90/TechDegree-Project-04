@@ -1,5 +1,6 @@
 
 //Import if Google Fonts URL is defined
+
 @if variable-exists(font-url--google){
     @import url($font-url--google);
 }
@@ -7,6 +8,7 @@
 
 
 // Grid background colors
+
 @each $themes , $color in $bg-colors-gr {
 
     .theme.col-#{$themes}{
@@ -17,6 +19,13 @@
     }
 }
 
+//col flex-basis
+
+@each $columns , $value in $grid-basis {
+    .col#{$columns} {
+        flex-basis: $value;
+    }
+}
 
 
 //Buttons background colors
