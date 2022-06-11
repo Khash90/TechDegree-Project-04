@@ -19,6 +19,7 @@
     padding: 10px;
     border-radius: 5px;
     &:hover {
+      transition: all 0.6s ease 0s;
       cursor: pointer;
     }
   }

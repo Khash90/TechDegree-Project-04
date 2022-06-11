@@ -3,6 +3,8 @@
 /* ============================================= */
 
 .btn {
+    font-family: $font-family--secondary;
+    font-weight: $font-weight--medium;
     margin-top: 15px;
     width: 100%;
     color: $color-main;
@@ -12,7 +14,9 @@
     border-radius: 5px;
     &:hover {
       cursor: pointer;
+      transition: all 0.6s ease 0s;
     }
+
   }
   
 // Buttons background colors in _functions partial

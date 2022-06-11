@@ -3,7 +3,7 @@
 /* ============================================= */
 
 * {
-    font-family: 'Lato', sans-serif;
+    font-family: $font-family--primary;
     color: $color-secondary;
     box-sizing: border-box;
   }
@@ -14,31 +14,38 @@
   
   a {
     text-decoration: none;
+    font-family: $font-family--secondary;
+    font-weight: $font-weight--medium;
+    &:hover{
+      transition: all 0.5s ease 0s;
+    }
+    
   }
   
   
   /* ============================================= */
   /*              Typography                       */
   /* ============================================= */
-  
-  .headline-primary {
-    color: $color-primary;
-    margin-left: 10px;
+  .headline{
+    &-primary {
+      color: $color-primary;
+      margin-left: 10px;
+    }
+    &-secondary {
+      font-weight: $font-weight--light;
+      color: $color-secondary;
+    }
   }
-  
-  .headline-secondary {
-    font-weight: 300;
-    color: $color-secondary;
-  }
+ 
   
   .link {
     color: $color-link;
-    font-weight: 700;
+    font-weight: $font-weight--bold;
   }
   
   .blockquote {
     font-size: 1.5em;
-    font-weight: 300;
+    font-weight: $font-weight--light;
     font-style: italic;
     margin-left: 20px;
     padding-left: 20px;
